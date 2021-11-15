@@ -1,0 +1,143 @@
+p.solid {
+    border-style: solid;
+}
+
+div.relative {
+    position: relative;
+}
+
+div.relative1 {
+    position: relative;
+    margin-top: 6%;
+}
+
+div.absolute1 {
+    position: relative;
+    display: inline-block;
+    width: 26%;
+    height: 100%;
+    border: 2px solid LightGray;
+    top: 0px;
+    margin-left: 5%;
+}
+
+div.stars {
+    padding: 3% 15.5%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border: 2px solid LightGray;
+}
+
+input.star {
+    display: none;
+}
+
+label.star {
+    float: right;
+    font-size: 1vw;
+    color: #444;
+    transition: all 0.2s;
+}
+
+input.star:checked~label.star:before {
+    content: "\f005";
+    color: #FD4;
+    transition: all 0.25s;
+}
+
+input.star-5:checked~label.star:before {
+    color: #FE7;
+    text-shadow: 0 0 20px #952;
+}
+
+input.star-1:checked~label.star:before {
+    color: #F62;
+}
+
+label.star:hover {
+    transform: rotate(-15deg) scale(1.3);
+}
+
+label.star:before {
+    content: "\f006";
+    font-family: FontAwesome;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 5%;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.button1 {
+    border: none;
+    color: white;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    font-size: 11px;
+    margin-top: 21.8%;
+    margin-left: 86%;
+    margin-right: 0%;
+}
+
+.button1 {
+    background-color: white;
+    color: #3c3c3c;
+    border: 2px solid LightGray;
+}
+
+.button1:hover {
+    background-color: black;
+    color: gray;
+}
+
+.button2 {
+    display: inline-block;
+    border: 2px solid LightGray;
+    color: white;
+    padding: 3% 10%;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    font-size: 1vw;
+    bottom: 0%;
+    left: 0%;
+}
+
+.button2 {
+    background-color: Black;
+    color: White;
+}
+
+.button2:hover {
+    background-color: black;
+    color: gray;
+}
