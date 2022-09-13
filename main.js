@@ -1,1 +1,1 @@
-alert("hello Hiếu ngu")
+alert("hello Khánh đẹp trai")
